@@ -1,0 +1,44 @@
+body {
+    max-width: 100vh; /* Defina a largura máxima desejada */
+    margin: 0 auto; /* Centraliza o contêiner */
+    padding: 0 20px; /* Adiciona um pouco de padding para espaçamento */
+}
+nav{
+    position: fixed;
+    bottom 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  nav img {
+    height: 100px;
+  }
+  .nav-links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+  .nav-item {
+    margin: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+  .nav-item:hover {
+    color: #00bcd4;
+  }
+  .button-task {
+    background-color: #00bcd4;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .button-task:hover {
+    background-color: #007b96;
+  }
